@@ -586,6 +586,7 @@ export default function Home() {
                     src={item.src}
                     alt={item.title}
                     fill
+                    unoptimized
                     sizes={
                       item.className === "galleryWide"
                         ? "(max-width: 800px) 100vw, 1200px"
